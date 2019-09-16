@@ -1,0 +1,100 @@
+/* RESETS */
+body {
+    margin: 0;
+    background: #f1f1f1;
+    width: 100%;
+}
+
+/* RESETS */
+
+
+.menu {
+    background-image: url("../img/background-menu.jpg");
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 75px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.hamburguer-menu {
+    margin-right: 10px;
+}
+
+.line1, .line2, .line3 {
+    background: black;
+    width: 30px;
+    height: 5px;
+    margin: 4px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+
+.line1Change {
+    transform: rotate(45deg) translate(7px, 1px)
+}
+
+.line2Change {
+    display: none;
+}
+
+.line3Change {
+    transform: rotate(-45deg) translate(6px, 0px)
+}
+
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 97%;
+    border-radius: 40px;
+}
+
+.miniaturas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.miniatura1, .miniatura2, .miniatura3 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #f2f2f2;
+    margin: 2px;
+}
+
+.miniaturaChange {
+    border: 2px solid gold;
+}
+
+.miniaturaNormal {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #f2f2f2;
+    margin: 2px;
+}
+
+.produto1-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    box-shadow: 1px 3px 9px lightgrey;
+    border-radius: 4px;
+}
+
+.img-produto {
+    width: 165px;
+    height: 165px;
+}
